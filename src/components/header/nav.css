@@ -1,0 +1,28 @@
+.nav {
+	margin-right: auto;
+}
+
+.nav__links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+}
+
+.nav__links li {
+	list-style: none;
+}
+
+.nav__links a {
+	text-decoration: none;
+	color: var(--alt-blueLight);
+	font-family: var(--font-family-public-regular);
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 100%;
+	transition: color 0.3s ease-in-out;
+}
+
+.nav__links a:hover {
+	color: var(--alt-blue);
+}
