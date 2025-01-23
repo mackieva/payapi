@@ -1,0 +1,15 @@
+.preFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+.preFooter h4 {
+	color: var(--alt-blue);
+}
+
+.preFooter .footnote {
+	display: none;
+}

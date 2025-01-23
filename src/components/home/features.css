@@ -48,7 +48,6 @@
 
 .features-grid-three {
 	padding-top: 145px;
-	padding-bottom: 95px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 30px;
