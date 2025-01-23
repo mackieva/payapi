@@ -1,4 +1,4 @@
-import Nav from './nav';
+import Nav from '../shared/nav';
 import logo from '../../assets/images/shared/desktop/logo.svg';
 import './header.css';
 
