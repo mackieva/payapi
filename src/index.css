@@ -30,6 +30,13 @@ body {
 	padding: 0;
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
 
 .heading-h1-lg {
 	font-family: var(--font-family-dm-regular);
@@ -154,4 +161,11 @@ body {
 .flex-column {
 	display: flex;
 	flex-direction: column;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

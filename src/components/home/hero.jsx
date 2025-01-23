@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<div className='container'>
 			<div className='hero__container'>
-				<div>
+				<div className='hero__container-copy'>
 					<h2 className='heading-h1-lg'>
 						Start building with our APIs for absolutely free.
 					</h2>

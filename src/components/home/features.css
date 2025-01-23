@@ -1,0 +1,68 @@
+.features {
+	background: url('/images/bg-pattern-circle.svg') no-repeat top 50% right -390px;
+}
+
+.features .features-grid:first-of-type {
+	padding-top: 145px;
+}
+
+.features .features-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 48%);
+	gap: 4%;
+}
+
+.features h3 {
+	color: var(--alt-blue);
+}
+
+.features p {
+	color: var(--alt-blueLight);
+	text-wrap: balance;
+}
+
+.features .image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.features img {
+	max-width: 100%;
+}
+
+.features .image-l {
+	align-items: start;
+}
+
+.features .image-r {
+	align-items: end;
+}
+
+.features .copy {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+.features-grid-three {
+	padding-top: 145px;
+	padding-bottom: 95px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.features-grid-three img {
+	margin-bottom: 35px;
+}
+
+.features-grid-three h4 {
+	color: var(--alt-blue);
+	font-weight: bold;
+}
+
+.features-grid-three p {
+	text-align: center;
+}
