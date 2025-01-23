@@ -12,11 +12,11 @@
 	gap: 4%;
 }
 
-.features h3 {
+.features .features-grid h3 {
 	color: var(--alt-blue);
 }
 
-.features p {
+.features .features-grid p {
 	color: var(--alt-blueLight);
 	text-wrap: balance;
 }
@@ -65,4 +65,5 @@
 
 .features-grid-three p {
 	text-align: center;
+	color: var(--alt-blue);
 }

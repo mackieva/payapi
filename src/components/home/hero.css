@@ -15,36 +15,6 @@
 	color: var(--alt-blue);
 }
 
-.hero__container .email-signup input {
-	border: none;
-	padding: 16px 24px;
-	border-radius: 28px;
-	margin-right: -40px;
-	width: 50%;
-}
-
-.hero__container .email-signup input::placeholder {
-	color: var(--alt-blueLight);
-	font-weight: 600;
-}
-
-.hero__container .email-signup button {
-	border: none;
-	cursor: pointer;
-}
-
-.hero__container .email-signup .footnote {
-	font-size: 14px;
-	color: var(--alt-blueLight);
-	padding-left: 24px;
-}
-
-.hero__container .email-signup .footnote a {
-	color: var(--alt-blue);
-	font-weight: 600;
-	text-decoration: none;
-}
-
 .hero__container-phone {
 	display: flex;
 	flex-direction: column;
