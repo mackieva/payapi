@@ -84,8 +84,8 @@ body {
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 100%;
-	transition: all 0.3s ease-in-out;
 	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
@@ -101,6 +101,7 @@ body {
 	font-family: var(--font-family-public-regular);
 	font-size: 15px;
 	font-weight: 700;
+	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -119,6 +120,7 @@ body {
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 100%;
+	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 }
 
