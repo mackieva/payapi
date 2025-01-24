@@ -1,0 +1,13 @@
+.logo-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+	align-items: center;
+	gap: 60px;
+}
+
+.logo-grid img {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+		hue-rotate(174deg) brightness(107%) contrast(96%);
+	width: 25%;
+}

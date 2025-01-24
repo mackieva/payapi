@@ -14,17 +14,3 @@
 .wwww__container p {
 	margin-bottom: 32px;
 }
-
-.wwww__container-logos {
-	display: flex;
-	flex-wrap: wrap;
-	justify-items: center;
-	align-items: center;
-	gap: 60px;
-}
-
-.wwww__container-logos img {
-	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
-		hue-rotate(174deg) brightness(107%) contrast(96%);
-	width: 25%;
-}
