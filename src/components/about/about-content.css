@@ -1,0 +1,44 @@
+.about-copy {
+	display: grid;
+	grid-template-columns: 255px auto;
+	gap: 30px;
+	padding: 52px 0;
+}
+
+.about-copy h3 {
+	color: var(--alt-blueDark);
+}
+
+.about-copy p {
+	color: var(--alt-blue);
+}
+
+.img-banner {
+	background: url('images/image-team-members.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	max-width: 100%;
+	padding: 250px 0;
+	margin: 72px 0;
+}
+
+.about-stats {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	margin-bottom: 20px;
+}
+
+.about-stats__column {
+	border-top: 1px solid var(--alt-blueLight);
+	border-bottom: 1px solid var(--alt-blueLight);
+	padding: 16px 0;
+}
+
+.about-stats__column .description {
+	color: var(--alt-blueLight);
+}
+
+.about-stats__column .stat {
+	color: var(--dark-pink);
+}
