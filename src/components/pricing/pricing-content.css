@@ -1,0 +1,60 @@
+h2 {
+	color: var(--alt-blue);
+	margin-top: 80px;
+}
+
+.pricing__table {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	margin-top: 72px;
+}
+
+.pricing__table h3 {
+	color: var(--dark-pink);
+	margin-bottom: 16px;
+}
+
+.pricing__table p {
+	color: var(--alt-blue);
+	margin-bottom: 8px;
+}
+
+.pricing__table .cost {
+	margin-bottom: 24px;
+}
+
+.pricing__table ul {
+	border-top: 1px solid var(--alt-blueLight);
+	border-bottom: 1px solid var(--alt-blueLight);
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 0;
+	margin-bottom: 24px;
+	margin-left: 0;
+}
+
+.pricing__table li {
+	color: var(--alt-blueLight);
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.pricing__table li::before {
+	background: hsl(207.3, 44%, 95.1%);
+	display: block;
+	content: '';
+	height: 8px;
+	width: 12px;
+	margin-right: 22px;
+}
+
+.pricing__table li.included {
+	color: var(--alt-blue);
+}
+
+.pricing__table li.included::before {
+	background: url('/images/icon-check.svg') no-repeat center center;
+}

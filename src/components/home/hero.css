@@ -8,11 +8,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: start;
-	gap: 35px;
 }
 
 .hero__container h2 {
 	color: var(--alt-blue);
+	margin-bottom: 35px;
 }
 
 .hero__container-phone {

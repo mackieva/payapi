@@ -1,9 +1,13 @@
+.email-signup {
+	display: flex;
+}
+
 .email-signup input {
 	border: none;
 	padding: 16px 24px;
 	border-radius: 28px;
 	margin-right: -40px;
-	width: 50%;
+	width: 225px;
 }
 
 .email-signup input::placeholder {
@@ -16,13 +20,14 @@
 	cursor: pointer;
 }
 
-.email-signup .footnote {
+.footnote {
 	font-size: 14px;
 	color: var(--alt-blueLight);
 	padding-left: 24px;
+	margin: 0;
 }
 
-.email-signup .footnote a {
+.footnote a {
 	color: var(--alt-blue);
 	font-weight: 600;
 	text-decoration: none;
