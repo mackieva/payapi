@@ -6,9 +6,9 @@ import hp from '../../assets/images/shared/desktop/hewlett-packard.svg';
 import oracle from '../../assets/images/shared/desktop/oracle.svg';
 import google from '../../assets/images/shared/desktop/google.svg';
 import nvidia from '../../assets/images/shared/desktop/nvidia.svg';
-const LogoGrid = () => {
+const LogoGrid = ({ color = 'blue' }) => {
 	return (
-		<div className='logo-grid'>
+		<div className={`logo-grid ${color}`}>
 			<img src={tesla} alt='Tesla logo' style={{ justifySelf: 'end' }} />
 			<img src={microsoft} alt='Microsoft logo' />
 			<img

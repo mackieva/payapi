@@ -1,0 +1,50 @@
+h2 {
+	color: var(--alt-blue);
+	margin-top: 80px;
+	text-wrap: balance;
+}
+
+.contact__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 45px 0;
+}
+
+.contact__container-form form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 20px;
+	width: 100%;
+}
+
+.contact__container-form input[type='text'],
+.contact__container-form input[type='email'],
+.contact__container-form textarea {
+	padding: 16px 20px;
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid var(--alt-blue);
+	width: 80%;
+}
+
+.contact__container-form input[type='checkbox'] {
+	margin-right: 10px;
+}
+
+.contact__container-form label {
+	color: var(--alt-blue);
+}
+
+.contact__container-copy {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+.contact__container-copy p {
+	color: var(--alt-blueLight);
+}

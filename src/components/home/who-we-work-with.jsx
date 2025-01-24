@@ -17,7 +17,7 @@ const WhoWeWorkWith = () => {
 						About Us
 					</a>
 				</div>
-				<LogoGrid />
+				<LogoGrid color='white' />
 			</div>
 		</div>
 	);

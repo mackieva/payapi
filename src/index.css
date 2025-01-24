@@ -39,6 +39,11 @@ p {
 	margin: 0;
 }
 
+button {
+	background: none;
+	border: none;
+}
+
 .heading-h1-lg {
 	font-family: var(--font-family-dm-regular);
 	font-size: 72px;
