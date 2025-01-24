@@ -27,11 +27,8 @@ h2 {
 .pricing__table ul {
 	border-top: 1px solid var(--alt-blueLight);
 	border-bottom: 1px solid var(--alt-blueLight);
-	padding-top: 24px;
-	padding-bottom: 24px;
-	padding-left: 0;
-	margin-bottom: 24px;
-	margin-left: 0;
+	padding: 24px 0;
+	margin: 0 0 24px 0;
 }
 
 .pricing__table li {
@@ -57,4 +54,8 @@ h2 {
 
 .pricing__table li.included::before {
 	background: url('/images/icon-check.svg') no-repeat center center;
+}
+
+.pricing-table a {
+	display: inline-block;
 }
