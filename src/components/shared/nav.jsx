@@ -1,16 +1,17 @@
 import './nav.css';
+import { NavLink } from 'react-router';
 const Nav = () => {
 	return (
 		<nav className='nav'>
 			<ul className='nav__links'>
 				<li>
-					<a href='#'>Pricing</a>
+					<NavLink to='/pricing'>Pricing</NavLink>
 				</li>
 				<li>
-					<a href='#'>About</a>
+					<NavLink to='/about'>About</NavLink>
 				</li>
 				<li>
-					<a href='#'>Contact</a>
+					<NavLink to='/contact'>Contact</NavLink>
 				</li>
 			</ul>
 		</nav>
