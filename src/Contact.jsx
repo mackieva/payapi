@@ -1,3 +1,4 @@
+import './Contact.css';
 import ContactContent from './components/contact/contact-content';
 import PreFooter from './components/shared/pre-footer';
 import Footer from './components/footer/footer';
