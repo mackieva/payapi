@@ -3,7 +3,7 @@ import './schedule-demo.css';
 const ScheduleDemo = () => {
 	return (
 		<>
-			<form className='email-signup'>
+			<form className='email-signup w-[445px]'>
 				<input
 					type='email'
 					id='email'

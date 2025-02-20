@@ -27,9 +27,10 @@ const ContactContent = () => {
 						/>
 						<input type='text' name='title' id='title' placeholder='Title' />
 						<textarea name='message' id='message' placeholder='Message' />
-						<label htmlFor='signup'>
-							<input type='checkbox' name='signup' id='signup' />
+						<label htmlFor='signup' className='check-container'>
 							Stay up-to-date with company announcements and updates to our API
+							<input type='checkbox' name='signup' id='signup' />
+							<span className='checkmark'></span>
 						</label>
 						<button className='btn-secondary--dark' type='submit'>
 							Submit
@@ -38,7 +39,7 @@ const ContactContent = () => {
 				</div>
 				<div className='contact__container-copy'>
 					<p className='heading-h4'>
-						Join the thousands of innovators already building with us
+						Join the thousands of innovators that are already building with us
 					</p>
 					<LogoGrid />
 				</div>
