@@ -91,7 +91,7 @@ button {
 .btn-primary {
 	background-color: var(--dark-pink);
 	color: var(--alt-white);
-	padding: 16px 24px;
+	padding: 16px 50px;
 	border-radius: 28px;
 	font-family: var(--font-family-public-regular);
 	font-size: 15px;
@@ -109,7 +109,7 @@ button {
 	background-color: none;
 	border: 1px solid var(--alt-white);
 	color: var(--alt-white);
-	padding: 16px 24px;
+	padding: 16px 50px;
 	border-radius: 28px;
 	font-family: var(--font-family-public-regular);
 	font-size: 15px;
@@ -127,7 +127,7 @@ button {
 	background-color: var(--secondary-white);
 	border: 1px solid var(--alt-blue);
 	color: var(--alt-blue);
-	padding: 16px 24px;
+	padding: 16px 50px;
 	border-radius: 28px;
 	font-family: var(--font-family-public-regular);
 	font-size: 15px;

@@ -1,9 +1,9 @@
 footer {
-	background: var(--alt-blueDark);
+	background: var(--alt-blueDark) url('/images/bg-pattern-circle.svg') no-repeat
+		top -125px right -50%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-
 .footer__items {
 	display: flex;
 	justify-content: start;

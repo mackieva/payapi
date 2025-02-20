@@ -20,6 +20,7 @@
 .email-signup button {
 	border: none;
 	cursor: pointer;
+	padding: 16px 24px;
 }
 
 .footnote {
