@@ -10,7 +10,7 @@ const Header = () => {
 				<img src={logo} alt='logo' className='header__logo' />
 			</NavLink>
 			<Nav />
-			<a href='#' className='btn-primary'>
+			<a href='#demo' className='btn-primary'>
 				Schedule a Demo
 			</a>
 		</header>

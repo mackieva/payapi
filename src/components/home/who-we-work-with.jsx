@@ -13,7 +13,7 @@ const WhoWeWorkWith = () => {
 						developers with the tools they need to create easy and accessible
 						experiences for their users.{' '}
 					</p>
-					<a href='#' className='btn-secondary--light'>
+					<a href='/about' className='btn-secondary--light'>
 						About Us
 					</a>
 				</div>

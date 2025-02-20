@@ -3,7 +3,7 @@ import './pre-footer.css';
 
 const PreFooter = () => {
 	return (
-		<div className='container preFooter'>
+		<div className='container preFooter' id='demo'>
 			<h4 className='heading-h2'>Ready to start?</h4>
 			<ScheduleDemo />
 		</div>
