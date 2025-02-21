@@ -15,7 +15,6 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	gap: 20px;
 	width: 100%;
 	max-width: 445px;
 }
@@ -30,6 +29,7 @@ h2 {
 	border-right: none;
 	border-bottom: 1px solid hsla(207, 33%, 32%, 0.5);
 	width: 100%;
+	margin-top: 20px;
 }
 
 .contact__container-form input[type='text']::placeholder,
@@ -53,6 +53,7 @@ h2 {
 	display: block;
 	position: relative;
 	padding-left: 43px;
+	margin-top: 20px;
 	cursor: pointer;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -112,6 +113,10 @@ h2 {
 	color: var(--alt-blue);
 }
 
+.contact__container-form button {
+	margin-top: 20px;
+}
+
 .contact__container-copy {
 	display: flex;
 	flex-direction: column;
@@ -123,4 +128,10 @@ h2 {
 	color: var(--alt-blue);
 	opacity: 0.75;
 	margin-bottom: 40px;
+}
+
+.error {
+	color: var(--error-red);
+	font-size: 11px;
+	margin-left: 20px;
 }

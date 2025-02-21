@@ -1,5 +1,6 @@
 import './contact-content.css';
 import LogoGrid from '../shared/logo-grid';
+import ContactForm from './contact-form';
 
 const ContactContent = () => {
 	return (
@@ -11,31 +12,7 @@ const ContactContent = () => {
 			</div>
 			<div className='contact__container'>
 				<div className='contact__container-form'>
-					<form>
-						<input type='text' name='name' id='name' placeholder='Name' />
-						<input
-							type='email'
-							name='email'
-							id='email'
-							placeholder='Email Address'
-						/>
-						<input
-							type='text'
-							name='company'
-							id='company'
-							placeholder='Company Name'
-						/>
-						<input type='text' name='title' id='title' placeholder='Title' />
-						<textarea name='message' id='message' placeholder='Message' />
-						<label htmlFor='signup' className='check-container'>
-							Stay up-to-date with company announcements and updates to our API
-							<input type='checkbox' name='signup' id='signup' />
-							<span className='checkmark'></span>
-						</label>
-						<button className='btn-secondary--dark' type='submit'>
-							Submit
-						</button>
-					</form>
+					<ContactForm />
 				</div>
 				<div className='contact__container-copy'>
 					<p className='heading-h4'>

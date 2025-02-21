@@ -19,6 +19,7 @@
 	--alt-blue: hsl(207, 33%, 32%);
 	--alt-blueLight: hsl(207, 16%, 50%);
 	--alt-blueDark: hsl(207, 27%, 15%);
+	--error-red: hsl(0, 100%, 50%);
 	--font-family-dm-regular: 'DM Serif Display', serif;
 	--font-family-dm-regular-italic: 'DM Serif Display', serif;
 	--font-family-public-regular: 'Public Sans', serif;
