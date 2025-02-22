@@ -49,6 +49,14 @@ h2 {
 	color: hsl(207, 33%, 32%);
 }
 
+.contact__container-form input.input-error,
+.contact__container-form textarea.input-error,
+.contact__container-form input.input-error::placeholder,
+.contact__container-form textarea.input-error::placeholder {
+	color: var(--error-red);
+	border-bottom: 1px solid var(--error-red);
+}
+
 .contact__container-form .check-container {
 	display: block;
 	position: relative;

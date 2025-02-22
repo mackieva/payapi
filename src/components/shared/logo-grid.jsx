@@ -9,16 +9,12 @@ import nvidia from '../../assets/images/shared/desktop/nvidia.svg';
 const LogoGrid = ({ color = 'blue' }) => {
 	return (
 		<div className={`logo-grid ${color}`}>
-			<img src={tesla} alt='Tesla logo' style={{ justifySelf: 'end' }} />
+			<img src={tesla} alt='Tesla logo' />
 			<img src={microsoft} alt='Microsoft logo' />
-			<img
-				src={hp}
-				alt='Hewlett Packard logo'
-				style={{ justifySelf: 'start' }}
-			/>
-			<img src={oracle} alt='Oracle logo' style={{ justifySelf: 'end' }} />
+			<img src={hp} alt='Hewlett Packard logo' />
+			<img src={oracle} alt='Oracle logo' />
 			<img src={google} alt='Google logo' />
-			<img src={nvidia} alt='Nvidia logo' style={{ justifySelf: 'start' }} />
+			<img src={nvidia} alt='Nvidia logo' />
 		</div>
 	);
 };
