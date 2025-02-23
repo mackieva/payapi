@@ -19,7 +19,9 @@ const ContactForm = () => {
 	const [state, formAction] = useActionState(contactFormAction, initialState);
 
 	if (state.success === true) {
-		toast('Baby we made it!');
+		toast(
+			`Thank you for getting in touch ${state.data.name}!  We've received your message and will be in touch with you as soon as we can.`
+		);
 	}
 
 	return (

@@ -28,5 +28,6 @@ export function contactFormAction(prevState, formData) {
 
 	return {
 		success: true,
+		data: validatedData.data,
 	};
 }
