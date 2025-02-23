@@ -25,4 +25,8 @@ export function contactFormAction(prevState, formData) {
 		title,
 		subscribed,
 	};
+
+	return {
+		success: true,
+	};
 }

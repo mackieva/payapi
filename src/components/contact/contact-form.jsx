@@ -5,6 +5,7 @@ import { contactFormAction } from '../../lib/actions';
 const ContactForm = () => {
 	const initialState = {
 		errors: {},
+		success: false,
 		data: {
 			name: '',
 			email: '',
