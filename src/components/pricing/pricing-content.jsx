@@ -9,7 +9,7 @@ const PricingContent = () => {
 			<div className='pricing__table'>
 				<div className='pricing__table-column'>
 					<h3 className='heading-h3-lg'>Free Plan</h3>
-					<p>
+					<p className='description'>
 						Build and test using our core set of products with up to 100 API
 						requests
 					</p>
@@ -29,7 +29,7 @@ const PricingContent = () => {
 				</div>
 				<div className='pricing__table-column'>
 					<h3 className='heading-h3-lg'>Basic Plan</h3>
-					<p>
+					<p className='description'>
 						Launch your project with unlimited requests and no contractual
 						minimums
 					</p>
@@ -49,7 +49,7 @@ const PricingContent = () => {
 				</div>
 				<div className='pricing__table-column'>
 					<h3 className='heading-h3-lg'>Premium Plan</h3>
-					<p>
+					<p className='description'>
 						Get tailored solutions, volume pricing, and dedicated support for
 						your team
 					</p>

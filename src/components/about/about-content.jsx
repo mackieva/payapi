@@ -4,9 +4,11 @@ const AboutContent = () => {
 	return (
 		<>
 			<div className='container'>
-				<h2 className='heading-h1-sm'>
-					We empower innovators by delivering access to the financial system
-				</h2>
+				<div className='page-title'>
+					<h2 className='heading-h1-sm'>
+						We empower innovators by delivering access to the financial system
+					</h2>
+				</div>
 				<div className='about-copy'>
 					<h3 className='heading-h3-lg'>Our Vision</h3>
 					<p>

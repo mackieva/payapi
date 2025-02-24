@@ -15,23 +15,26 @@ h2 {
 	margin-bottom: 16px;
 }
 
-.pricing__table p {
-	color: var(--alt-blue);
+.pricing__table .description {
+	color: var(--alt-blueLight);
 	margin-bottom: 8px;
 }
 
 .pricing__table .cost {
+	color: var(--alt-blue);
 	margin-bottom: 24px;
 }
 
 .pricing__table ul {
-	border-top: 1px solid var(--alt-blueLight);
-	border-bottom: 1px solid var(--alt-blueLight);
+	border-top: 1px solid hsla(0, 0%, 59%, 0.25);
+	border-bottom: 1px solid hsla(0, 0%, 59%, 0.25);
 	padding: 24px 0;
 	margin: 0 0 24px 0;
+	width: 100%;
 }
 
 .pricing__table li {
+	font-size: 16px;
 	color: var(--alt-blueLight);
 	list-style-type: none;
 	padding-left: 0;
@@ -58,4 +61,28 @@ h2 {
 
 .pricing-table a {
 	display: inline-block;
+}
+
+@media (max-width: 1440px) {
+	.pricing__table {
+		text-align: center;
+		gap: 10px;
+	}
+	.pricing__table h3 {
+		font-size: 24px;
+	}
+
+	.pricing__table .description {
+		margin-bottom: 19px;
+	}
+
+	.pricing__table .cost {
+		font-size: 48px;
+		color: var(--alt-blue);
+		margin-bottom: 24px;
+	}
+
+	.pricing__table ul li {
+		padding-left: 45px;
+	}
 }
