@@ -23,6 +23,10 @@
 	--font-family-dm-regular: 'DM Serif Display', serif;
 	--font-family-dm-regular-italic: 'DM Serif Display', serif;
 	--font-family-public-regular: 'Public Sans', serif;
+
+	--toastify-toast-padding: 14px 20px 14px 14px;
+	--toastify-color-progress-light: hsl(207, 33%, 32%);
+	--toastify-color-progress-dark: #bb86fc;
 }
 
 html,

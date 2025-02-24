@@ -7,4 +7,21 @@
 
 .header__logo {
 	margin-right: 65px;
+	vertical-align: middle;
+}
+
+.header .btn-primary {
+	padding: 16px 25px;
+}
+
+@media (max-width: 1440px) {
+	.header {
+		justify-content: space-between;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.header__logo {
+		margin-right: 0;
+	}
 }

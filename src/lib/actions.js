@@ -28,6 +28,6 @@ export function contactFormAction(prevState, formData) {
 
 	return {
 		success: true,
-		data: validatedData.data,
+		name: validatedData.data.name,
 	};
 }

@@ -15,12 +15,16 @@ const ContactForm = () => {
 			message: '',
 			signup: null,
 		},
+		name: '',
 	};
 	const [state, formAction] = useActionState(contactFormAction, initialState);
 
 	if (state.success === true) {
 		toast(
-			`Thank you for getting in touch ${state.data.name}!  We've received your message and will be in touch with you as soon as we can.`
+			`Thank you for getting in touch ${state.name}!  We've received your message and will be in touch with you as soon as we can.`,
+			{
+				className: 'p-0 w-[400px] border border-purple-600/40',
+			}
 		);
 	}
 
