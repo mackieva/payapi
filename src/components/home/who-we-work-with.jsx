@@ -5,7 +5,7 @@ const WhoWeWorkWith = () => {
 	return (
 		<div className='wwww'>
 			<div className='container wwww__container'>
-				<div>
+				<div className='wwww__container-copy'>
 					<h3 className='heading-h2'>Who we work with</h3>
 					<p>
 						Today, millions of people around the world have successfully
