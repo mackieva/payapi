@@ -11,11 +11,12 @@
 }
 
 .about-copy p {
-	color: var(--alt-blue);
+	color: var(--alt-blueLight);
 }
 
 .img-banner {
-	background: url('images/image-team-members.jpg') no-repeat center center;
+	background: url('images/about/desktop/image-team-members.jpg') no-repeat
+		center center;
 	background-size: cover;
 	width: 100%;
 	max-width: 100%;
@@ -31,8 +32,8 @@
 }
 
 .about-stats__column {
-	border-top: 1px solid var(--alt-blueLight);
-	border-bottom: 1px solid var(--alt-blueLight);
+	border-top: 1px solid hsla(0, 0%, 59%, 0.25);
+	border-bottom: 1px solid hsla(0, 0%, 59%, 0.25);
 	padding: 16px 0;
 }
 
@@ -42,4 +43,23 @@
 
 .about-stats__column .stat {
 	color: var(--dark-pink);
+}
+
+@media (max-width: 1440px) {
+	.about-copy {
+		display: grid;
+		grid-template-columns: 223px auto;
+		row-gap: 65px;
+		padding: 52px 0;
+	}
+
+	.img-banner {
+		background: url('images/about/tablet/image-team-members.jpg') no-repeat
+			center center;
+		background-size: cover;
+		width: 100%;
+		max-width: 100%;
+		padding: 132px 0;
+		margin: 72px 0;
+	}
 }
