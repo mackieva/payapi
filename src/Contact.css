@@ -1,3 +1,9 @@
 body.contact {
 	background: url('/images/bg-pattern-circle.svg') no-repeat top -530px right -145px;
 }
+
+@media (max-width: 1440px) {
+	body.contact {
+		background: url('/images/bg-pattern-circle.svg') no-repeat top -465px right -520px;
+	}
+}
