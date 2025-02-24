@@ -13,3 +13,12 @@
 .preFooter .footnote {
 	display: none;
 }
+
+@media (max-width: 1440px) {
+	.preFooter {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+}
