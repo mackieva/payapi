@@ -60,9 +60,62 @@
 .features-grid-three h4 {
 	color: var(--alt-blue);
 	font-weight: bold;
+	margin-bottom: 16px;
 }
 
 .features-grid-three p {
 	text-align: center;
-	color: var(--alt-blue);
+	color: var(--alt-blueLight);
+	letter-spacing: -0.12px;
+}
+
+@media (max-width: 1440px) {
+	.features {
+		background: none;
+	}
+
+	.features .features-grid {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		gap: 0;
+		padding-top: 100px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.features .features-grid:first-of-type {
+		padding-top: 60px;
+	}
+
+	.features .image {
+		order: 1;
+	}
+
+	.features .copy {
+		order: 2;
+	}
+
+	.features .image-l,
+	.features .image-r,
+	.features .copy {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.features .image img {
+		max-width: 425px;
+	}
+
+	.features .features-grid p {
+		text-wrap: auto;
+	}
+
+	.features-grid-three {
+		gap: 10px;
+	}
+
+	.features-grid-three .flex-center {
+		justify-content: start;
+	}
 }
