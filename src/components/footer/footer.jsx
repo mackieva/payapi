@@ -8,7 +8,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className='container footer__items'>
-				<NavLink to='/'>
+				<NavLink to='/' className='footer-logo-link'>
 					<img src={logo} alt='logo' className='header__logo' />
 				</NavLink>
 				<Nav />

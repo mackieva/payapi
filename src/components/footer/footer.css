@@ -1,6 +1,6 @@
 footer {
 	background: var(--alt-blueDark) url('/images/bg-pattern-circle.svg') no-repeat
-		top -125px right -50%;
+		top -125px right -390px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -17,4 +17,21 @@ footer {
 
 .footer__items nav a {
 	color: var(--alt-white);
+	opacity: 0.7;
+	transition: all 0.3s ease;
+}
+
+.footer__items nav a:hover,
+.footer__items nav a:active {
+	opacity: 1;
+}
+
+@media (max-width: 1440px) {
+	.footer-logo-link {
+		margin-right: 65px;
+	}
+
+	footer .nav {
+		margin-right: auto;
+	}
 }
