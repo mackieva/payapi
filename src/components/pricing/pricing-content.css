@@ -86,3 +86,26 @@ h2 {
 		padding-left: 45px;
 	}
 }
+
+@media (max-width: 768px) {
+	.pricing__table {
+		display: flex;
+		flex-direction: column;
+		gap: 48px;
+		margin-top: 48px;
+	}
+
+	.pricing__table ul {
+		margin-bottom: 24px;
+	}
+
+	.pricing__table ul li {
+		padding-left: 0;
+		max-width: 135px;
+		margin: 0 auto;
+	}
+
+	.pricing__table a {
+		display: inline-block;
+	}
+}
