@@ -63,3 +63,45 @@
 		margin: 72px 0;
 	}
 }
+
+@media (max-width: 768px) {
+	.about-copy {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		gap: 16px;
+	}
+
+	.about-copy h3 {
+		font-size: 24px;
+		line-height: 32px;
+		letter-spacing: -0.18px;
+	}
+
+	.about-copy p {
+		margin-bottom: 48px;
+	}
+
+	.about-copy p:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.about-stats {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		gap: 32px;
+		padding: 16px 0;
+		border-top: 1px solid hsla(0, 0%, 59%, 0.25);
+		border-bottom: 1px solid hsla(0, 0%, 59%, 0.25);
+	}
+
+	.about-stats__column {
+		border: none;
+		padding: 0;
+	}
+}
