@@ -12,7 +12,7 @@
 	justify-content: start;
 	align-items: stretch;
 	gap: 24px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	height: 100%;
@@ -23,7 +23,7 @@
 	transition: all 0.3s ease;
 	z-index: 10;
 	padding: 48px 24px 0;
-	border-top: ;
+	opacity: 0;
 }
 
 .mobile-nav-container nav {
@@ -47,6 +47,7 @@
 }
 
 .mobile-nav-container.active {
+	opacity: 1;
 	transform: translateX(0);
 }
 
