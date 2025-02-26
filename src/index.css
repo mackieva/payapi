@@ -177,6 +177,13 @@ button {
 	}
 }
 
+@media (max-width: 768px) {
+	.container {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+}
+
 .flex-row {
 	display: flex;
 	flex-direction: row;
