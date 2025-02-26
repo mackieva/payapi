@@ -52,3 +52,21 @@
 		line-height: 100%;
 	}
 }
+
+@media (max-width: 768px) {
+	.wwww__container {
+		padding: 80px 24px;
+	}
+
+	.wwww__container-copy h3 {
+		font-size: 32px;
+		line-height: 36px;
+		margin: 0 0 16px;
+	}
+
+	.wwww__container-copy p {
+		color: hsla(207, 58%, 99%, 0.7);
+		text-wrap: auto;
+		margin-bottom: 60px;
+	}
+}

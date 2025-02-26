@@ -11,3 +11,16 @@
 		hue-rotate(174deg) brightness(107%) contrast(96%);
 	width: 25%;
 }
+
+@media (max-width: 768px) {
+	.logo-grid {
+		gap: 15px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.logo-grid.white img {
+		width: auto;
+		margin-bottom: 40px;
+	}
+}
