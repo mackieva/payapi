@@ -119,3 +119,36 @@
 		justify-content: start;
 	}
 }
+
+@media (max-width: 768px) {
+	.features .features-grid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.features .features-grid h3 {
+		font-size: 36px;
+		line-height: 36px;
+		letter-spacing: -0.28px;
+		margin-bottom: 24px;
+	}
+
+	.features .image img {
+		margin-left: 40px;
+	}
+
+	.features .image-l img {
+		max-width: 450px;
+	}
+
+	.features .image-r img {
+		max-width: 420px;
+	}
+
+	.features-grid-three {
+		display: flex;
+		flex-direction: column;
+		gap: 48px;
+		padding-top: 80px;
+	}
+}
