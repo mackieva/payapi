@@ -25,3 +25,9 @@
 		margin-right: 0;
 	}
 }
+
+@media (max-width: 768px) {
+	.header-signup {
+		display: none;
+	}
+}

@@ -1,0 +1,65 @@
+.mobile-open {
+	display: none;
+}
+
+.mobile-close {
+	align-self: end;
+}
+
+.mobile-nav-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: stretch;
+	gap: 24px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 252px;
+	background: var(--alt-blueDark) url('/images/bg-pattern-circle.svg') no-repeat
+		top -550px left -280px;
+	transform: translateX(350px);
+	transition: all 0.3s ease;
+	z-index: 10;
+	padding: 48px 24px 0;
+	border-top: ;
+}
+
+.mobile-nav-container nav {
+	border-top: 1px solid hsla(207, 58%, 99%, 0.15);
+	width: 100%;
+	padding-top: 43px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+}
+
+.mobile-nav-container nav a {
+	color: hsla(207, 58%, 99%, 0.7);
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 100%;
+}
+
+.mobile-nav-container.active {
+	transform: translateX(0);
+}
+
+.mobile-nav-container .btn-primary {
+	text-align: center;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.mobile-open {
+		display: block;
+	}
+}
