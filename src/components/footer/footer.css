@@ -35,3 +35,30 @@ footer {
 		margin-right: auto;
 	}
 }
+
+@media (max-width: 768px) {
+	footer {
+		background-position: bottom -605px center;
+	}
+	.footer__items {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.footer__items .footer-logo-link {
+		margin: 0;
+	}
+
+	.footer__items .nav {
+		margin: 0;
+	}
+
+	.footer__items .nav__links {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 35px;
+	}
+}
