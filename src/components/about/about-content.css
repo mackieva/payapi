@@ -79,7 +79,14 @@
 		width: 100%;
 		max-width: 100%;
 		padding: 132px 0;
-		margin: 65px 0;
+	}
+	.about-above-img {
+		background: none;
+		padding-bottom: 65px;
+	}
+	.about-below-img {
+		background: none;
+		padding-top: 65px;
 	}
 }
 
@@ -132,6 +139,13 @@
 		max-width: 100%;
 		height: 375px;
 		padding: 0;
-		margin: 65px 0;
+	}
+	.about-above-img {
+		background: none;
+		padding-bottom: 75px;
+	}
+	.about-below-img {
+		background: none;
+		padding-top: 48px;
 	}
 }
