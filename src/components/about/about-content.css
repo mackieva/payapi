@@ -23,6 +23,11 @@
 	line-height: 28px;
 }
 
+.about-above-img {
+	background: url('/images/bg-pattern-circle.svg') no-repeat left -520px bottom -640px;
+	padding-bottom: 100px;
+}
+
 .img-banner {
 	background: url('images/about/desktop/image-team-members.jpg') no-repeat
 		center center;
@@ -30,7 +35,11 @@
 	width: 100%;
 	max-width: 100%;
 	padding: 250px 0;
-	margin: 100px 0;
+}
+
+.about-below-img {
+	background: url('/images/bg-pattern-circle.svg') no-repeat left -520px top -640px;
+	padding-top: 100px;
 }
 
 .about-stats {
