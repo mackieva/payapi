@@ -1,8 +1,16 @@
+.about .page-title {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
 .about-copy {
 	display: grid;
 	grid-template-columns: 255px auto;
-	gap: 30px;
-	padding: 52px 0;
+	column-gap: 30px;
+	row-gap: 56px;
+	padding-top: 80px;
+	max-width: 920px;
+	margin: 0 auto;
 }
 
 .about-copy h3 {
@@ -12,6 +20,7 @@
 
 .about-copy p {
 	color: var(--alt-blueLight);
+	line-height: 28px;
 }
 
 .img-banner {
@@ -21,7 +30,7 @@
 	width: 100%;
 	max-width: 100%;
 	padding: 250px 0;
-	margin: 72px 0;
+	margin: 100px 0;
 }
 
 .about-stats {
@@ -45,12 +54,13 @@
 	color: var(--dark-pink);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.about-copy {
 		display: grid;
 		grid-template-columns: 223px auto;
 		row-gap: 65px;
 		padding: 52px 0;
+		column-gap: 10px;
 	}
 
 	.img-banner {
@@ -60,11 +70,11 @@
 		width: 100%;
 		max-width: 100%;
 		padding: 132px 0;
-		margin: 72px 0;
+		margin: 65px 0;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.about-copy {
 		display: flex;
 		flex-direction: column;
@@ -103,5 +113,16 @@
 	.about-stats__column {
 		border: none;
 		padding: 0;
+	}
+
+	.img-banner {
+		background: url('images/about/mobile/image-team-members.jpg') no-repeat
+			center center;
+		background-size: cover;
+		width: 100%;
+		max-width: 100%;
+		height: 375px;
+		padding: 0;
+		margin: 65px 0;
 	}
 }

@@ -154,7 +154,7 @@ button {
 	line-height: 32px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.heading-h1-sm {
 		font-size: 48px;
 	}
@@ -229,14 +229,14 @@ button {
 	padding-right: 25px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.container {
 		padding-left: 40px;
 		padding-right: 40px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.container {
 		padding-left: 24px;
 		padding-right: 24px;
@@ -265,25 +265,23 @@ button {
 	align-items: center;
 }
 
-.page-title {
-	text-align: center;
-}
-
 .page-title h2 {
 	color: var(--alt-blue);
 	margin-top: 80px;
+	max-width: 730px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.page-title h2 {
 		max-width: 22ch;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 75px;
+		text-align: center;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.page-title h2 {
 		font-size: 32px;
 		line-height: 36px;

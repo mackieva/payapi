@@ -1,13 +1,13 @@
 .logo-grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 50px;
 }
 
-.logo-grid img {
-	width: 25%;
+.logo-grid .jsc {
+	justify-self: center;
 }
 
 .logo-grid.white img {
@@ -15,7 +15,7 @@
 		hue-rotate(174deg) brightness(107%) contrast(96%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.logo-grid {
 		gap: 15px;
 		display: grid;

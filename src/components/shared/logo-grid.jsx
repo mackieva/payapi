@@ -13,7 +13,7 @@ const LogoGrid = ({ color = 'blue' }) => {
 			<img src={microsoft} alt='Microsoft logo' />
 			<img src={hp} alt='Hewlett Packard logo' />
 			<img src={oracle} alt='Oracle logo' />
-			<img src={google} alt='Google logo' />
+			<img src={google} className='jsc' alt='Google logo' />
 			<img src={nvidia} alt='Nvidia logo' />
 		</div>
 	);

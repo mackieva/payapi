@@ -59,7 +59,7 @@ button:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.mobile-open {
 		display: block;
 	}

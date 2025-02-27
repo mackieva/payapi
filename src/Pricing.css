@@ -2,13 +2,13 @@ body.pricing {
 	background: url('/images/bg-pattern-circle.svg') no-repeat top -530px right -145px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	body.pricing {
 		background-position: top -465px right -520px;
 	}
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 767px) {
 	body.pricing {
 		background-position: top -645px left 60px;
 	}

@@ -69,7 +69,7 @@
 	letter-spacing: -0.12px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.features {
 		background: none;
 	}
@@ -107,8 +107,13 @@
 		max-width: 425px;
 	}
 
+	.features .features-grid h3 {
+		margin-bottom: 24px;
+	}
+
 	.features .features-grid p {
 		text-wrap: auto;
+		line-height: 28px;
 	}
 
 	.features-grid-three {
@@ -120,7 +125,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.features .features-grid {
 		padding-left: 0;
 		padding-right: 0;

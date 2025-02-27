@@ -22,7 +22,7 @@
 	align-items: end;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.hero__container {
 		display: flex;
 		flex-direction: column;
@@ -44,6 +44,8 @@
 
 	.hero-phone {
 		width: 65%;
+		position: relative;
+		left: 20px;
 	}
 
 	.hero__container h2 {

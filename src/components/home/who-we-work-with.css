@@ -1,6 +1,6 @@
 .wwww {
 	background: var(--alt-blueDark) url('/images/bg-pattern-circle.svg') no-repeat
-		left -160px top -240px;
+		left -205px top -375px;
 }
 
 .wwww__container {
@@ -11,15 +11,26 @@
 	padding-bottom: 100px;
 }
 
-.wwww__container p {
-	margin-bottom: 32px;
+.wwww__container-copy {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
 }
 
 .wwww__container-copy h3 {
 	color: #fff;
+	margin-bottom: 24px;
 }
 
-@media (max-width: 1440px) {
+.wwww__container-copy p {
+	margin-bottom: 32px;
+	line-height: 28px;
+	font-size: 15px;
+	max-width: 445px;
+}
+
+@media (max-width: 1439px) {
 	.wwww {
 		background-position: center top -540px;
 	}
@@ -53,7 +64,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.wwww__container {
 		padding: 80px 24px;
 	}

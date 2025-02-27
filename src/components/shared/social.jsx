@@ -7,10 +7,10 @@ const Social = () => {
 	return (
 		<div className='social__links'>
 			<a href='#'>
-				<img src={twitter} alt='Twitter Logo' />
+				<img src={facebook} alt='Facebook Logo' />
 			</a>
 			<a href='#'>
-				<img src={facebook} alt='Facebook Logo' />
+				<img src={twitter} alt='Twitter Logo' />
 			</a>
 			<a href='#'>
 				<img src={linkedin} alt='LinkedIn Logo' />

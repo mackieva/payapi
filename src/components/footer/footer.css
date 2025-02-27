@@ -26,7 +26,7 @@ footer {
 	opacity: 1;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
 	.footer-logo-link {
 		margin-right: 65px;
 	}
@@ -36,7 +36,7 @@ footer {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	footer {
 		background-position: bottom -605px center;
 	}

@@ -1,7 +1,7 @@
 import './mobile-nav.css';
 import { NavLink } from 'react-router';
-import mobileClose from '../../../public/images/close.svg';
-import mobileOpen from '../../../public/images/menu.svg';
+import mobileClose from '../../assets/images/close.svg';
+import mobileOpen from '../../assets/images/menu.svg';
 import { createPortal } from 'react-dom';
 import { useState } from 'react';
 
