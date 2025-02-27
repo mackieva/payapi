@@ -6,6 +6,7 @@
 .wwww__container {
 	display: grid;
 	grid-template-columns: 445px 1fr;
+	align-items: center;
 	gap: 115px;
 	padding-top: 100px;
 	padding-bottom: 100px;

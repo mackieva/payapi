@@ -12,6 +12,7 @@
 
 .hero__container h2 {
 	color: var(--alt-blue);
+	margin-top: 0;
 	margin-bottom: 35px;
 }
 
