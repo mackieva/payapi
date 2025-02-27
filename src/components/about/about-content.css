@@ -29,7 +29,7 @@
 }
 
 .img-banner {
-	background: url('images/about/desktop/image-team-members.jpg') no-repeat
+	background: url('/images/about/desktop/image-team-members.jpg') no-repeat
 		center center;
 	background-size: cover;
 	width: 100%;
@@ -73,7 +73,7 @@
 	}
 
 	.img-banner {
-		background: url('images/about/tablet/image-team-members.jpg') no-repeat
+		background: url('/images/about/tablet/image-team-members.jpg') no-repeat
 			center center;
 		background-size: cover;
 		width: 100%;
@@ -125,7 +125,7 @@
 	}
 
 	.img-banner {
-		background: url('images/about/mobile/image-team-members.jpg') no-repeat
+		background: url('/images/about/mobile/image-team-members.jpg') no-repeat
 			center center;
 		background-size: cover;
 		width: 100%;
